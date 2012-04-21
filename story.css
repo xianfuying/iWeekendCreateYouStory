@@ -5,7 +5,9 @@ body {
 }
 
 .head {
-  height: 100px;
+  height: 140px;
+  /*background-color: #44B5AF;*/
+  background: 0 url("logo.png") no-repeat, 250px url("fubiaoti.png") no-repeat;
   background-color: #44B5AF;
   border-radius: 5px;
   box-shadow: 2px 2px 5px gray;
@@ -17,7 +19,7 @@ body {
 }
 
 .container {
-  margin-top: 10px;
+  margin-top: 20px;
   position: relative;
   border-radius: 5px;
   background-color: white;
@@ -34,11 +36,13 @@ body {
 }
 
 .story-title {
-  background-color: #EA6D2C;  color: white;
+  background-color: #02AfBD;
+  color: white;
   box-shadow: 0 3px 3px gray;
   padding: 20px 0 20px 20px;
   margin: 0;
   border-radius: 5px;
+  font-size: 30px;
 }
 
 ul {
@@ -56,9 +60,9 @@ p {
 
 .story-content ul li {
   list-style: none;
-  background-color: #BCC1C5;
+  background-color: #81CEAD;
   padding: 0 20px 0 20px;
-  color: white;
+  color: #000000;
   margin-right: 20px;
   margin-left: -20px;
   box-shadow: 0px 3px 3px gray;
@@ -73,6 +77,10 @@ p {
   overflow: auto;
 }
 
+li {
+  font-size: 18px;
+}
+
 .add-content {
   width: 660px;
   height: 200px;
@@ -80,11 +88,12 @@ p {
   border: none;
   border-radius: 5px;
   box-shadow: 0 0 10px #D1D1D1 inset;
+  font-size: 20px;
 }
 
 .story-added li {
   list-style: none;
-  background-color: #81CEAD;
+  background-color: #BCC1C5;
   color: white;
   border-radius: 3px;
   padding: 0 20px 0 20px;
@@ -92,6 +101,12 @@ p {
   box-shadow: 0 3px 3px gray;
   margin-left: -40px;
   position: relative;
+}
+
+.story-content ul {
+  background-color: #DEDCDD;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .story-added li div {
@@ -110,8 +125,9 @@ p {
 
 .submit-content {
   width: 150px;
-  height: 30px;
+  height: 40px;
   text-align: center;
+  padding-top: 10px;
   background-color: #972D03;
   border-radius: 5px;
   color: white;
@@ -119,5 +135,45 @@ p {
   margin-right: 10px;
   font-size: 18px;
   text-decoration: none;
+}
+
+.start-story {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #B4C720;
+  border-radius: 5px;
+  color: white;
+  float: right;
+  font-size: 25px;
+  margin-right: 50px;
+  margin-top: 30px;
+  padding-left: 70px;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.story {
+  position: relative;
+  box-shadow: 0 3px 3px gray;
+  background-color: #A6CFD3;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.view-more {
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.social {
+  height: 50px;
+  margin-left: 390px;
+
+  background: url("share_icon.gif") no-repeat;
 }
 
