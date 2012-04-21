@@ -1,0 +1,75 @@
+body {
+  margin: 5px 100px 0 100px;
+  font-family: "微软雅黑", Times, serif;
+}
+
+.head {
+  height: 100px;
+  background-color: #44B5AF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.container {
+  margin-top: 10px;
+  position: relative;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.left {
+  float: left;
+  width: 64%;
+  height: 500px;
+  border-radius: 5px;
+  background-color: #F6F4E7;
+}
+
+.right {
+  float: right;
+  width: 35%;
+  height: 500px;
+  background-color: #F6F4E7;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.add-content {
+  width: 670px;
+  height: 300px;
+  margin: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #D1D1D1 inset;
+}
+
+.story-added li {
+  list-style: none;
+  background-color: #6191AF;
+  color: white;
+  border-radius: 3px;
+  padding: 0 20px 0 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 3px gray;
+  margin-left: -40px;
+
+}
+
+.chapter-title {
+  background: #972D03;
+  color: white;
+  box-shadow: 0 3px 3px gray;
+}
+
+.submit-content {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  background-color: #972D03;
+  border-radius: 5px;
+  color: white;
+  float: right;
+  margin-right: 10px;
+  font-size: 18px;
+}
