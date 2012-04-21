@@ -1,6 +1,7 @@
 body {
   margin: 5px 100px 0 100px;
   font-family: "微软雅黑", Times, serif;
+  background-image: url("background.png");
 }
 
 .head {
@@ -10,34 +11,71 @@ body {
   box-shadow: 2px 2px 5px gray;
 }
 
+.head h1 {
+  padding: 25px 0 30px 20px;
+  color: white;
+}
+
 .container {
   margin-top: 10px;
   position: relative;
-  height: 500px;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px gray;
+  background-color: white;
 }
 
 .left {
   float: left;
   width: 64%;
-  height: 500px;
   border-radius: 5px;
   background-color: #F6F4E7;
+  box-shadow: 2px 2px 5px gray;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.story-title {
+  background-color: #EA6D2C;  color: white;
+  box-shadow: 0 3px 3px gray;
+  padding: 20px 0 20px 20px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+p {
+  padding: 5px 0 5px 0;
+}
+
+.vote {
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.story-content ul li {
+  list-style: none;
+  background-color: #BCC1C5;
+  padding: 0 20px 0 20px;
+  color: white;
+  margin-right: 20px;
+  margin-left: -20px;
+  box-shadow: 0px 3px 3px gray;
 }
 
 .right {
   float: right;
   width: 35%;
-  height: 500px;
   background-color: #F6F4E7;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px gray;
   overflow: auto;
 }
 
 .add-content {
-  width: 670px;
-  height: 300px;
+  width: 660px;
+  height: 200px;
   margin: 10px 10px 10px 10px;
   border: none;
   border-radius: 5px;
@@ -46,20 +84,28 @@ body {
 
 .story-added li {
   list-style: none;
-  background-color: #6191AF;
+  background-color: #81CEAD;
   color: white;
   border-radius: 3px;
   padding: 0 20px 0 20px;
   margin-top: 10px;
   box-shadow: 0 3px 3px gray;
   margin-left: -40px;
+  position: relative;
+}
 
+.story-added li div {
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
 }
 
 .chapter-title {
-  background: #972D03;
+  background: #F79651;
   color: white;
   box-shadow: 0 3px 3px gray;
+  padding-left: 20px;
+  margin: 0;
 }
 
 .submit-content {
@@ -72,4 +118,6 @@ body {
   float: right;
   margin-right: 10px;
   font-size: 18px;
+  text-decoration: none;
 }
+

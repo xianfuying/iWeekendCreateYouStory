@@ -7,12 +7,19 @@ $(document).ready(function() {
             return;
         }
         else {
+            var length = $('.story-added ul li').length;
             $('.story-added ul').prepend(
                     "<li>" +
                     "   <p>" + content +
                     "   </p>" +
-                    "   </li>");
+                    "   <div><span>投票</span><span class='vote'>0</span></div>" +
+                    "</li>");
             $('.add-content').val("");
         }
+    });
+
+    $('.vote').live('click', function() {
+        var current = $(this).text();
+        $(this).text(Number(current) + 1);
     });
 });
